@@ -79,18 +79,21 @@ class AudioPage extends StatefulWidget {
 class _AudioPageState extends State<AudioPage> {
   List<Map<String, dynamic>> foundUser = [];
 
+  final int startIndex = 12;
+  final int endIndex = 18;
+
   @override
   void initState() {
-    foundUser = musicList.sublist(18);
+    foundUser = musicList.sublist(startIndex, endIndex);
     super.initState();
   }
 
   void runFilter(String enteredKey) {
     List<Map<String, dynamic>> results = [];
     if (enteredKey.isEmpty) {
-      results = musicList.sublist(18);
+      results = musicList.sublist(startIndex, endIndex);
     } else {
-      results = musicList.sublist(18).where((element) =>
+      results = musicList.sublist(startIndex, endIndex).where((element) =>
       element["title"]?.toLowerCase().contains(enteredKey.toLowerCase()) ?? false).toList();
     }
     setState(() {

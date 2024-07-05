@@ -5,14 +5,14 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:video_player/video_player.dart';
 import '../../list/musiclist.dart';
 
-class music_show_4 extends StatefulWidget {
-  const music_show_4({super.key});
+class music_show_5 extends StatefulWidget {
+  const music_show_5({super.key});
 
   @override
-  State<music_show_4> createState() => _music_show_4State();
+  State<music_show_5> createState() => _music_show_5State();
 }
 
-class _music_show_4State extends State<music_show_4> {
+class _music_show_5State extends State<music_show_5> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -79,8 +79,8 @@ class AudioPage extends StatefulWidget {
 class _AudioPageState extends State<AudioPage> {
   List<Map<String, dynamic>> foundUser = [];
 
-  final int startIndex = 18;
-  final int endIndex = 24;
+  final int startIndex = 24;
+  final int endIndex = 28;
 
   @override
   void initState() {
@@ -284,7 +284,6 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
       "title": "Video 5"
     },
   ];
-
   @override
   void initState() {
     super.initState();
@@ -368,4 +367,3 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     );
   }
 }
-

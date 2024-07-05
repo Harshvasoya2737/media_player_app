@@ -225,7 +225,7 @@ class _HomepageState extends State<Homepage> {
                       padding: const EdgeInsets.all(8.0),
                       child: InkWell(
                         onTap: () {
-                          Navigator.pushNamed(context, "music_3");
+                          Navigator.pushNamed(context, "music_4");
                         },
                         child: Container(
                           height: 160,
@@ -242,7 +242,7 @@ class _HomepageState extends State<Homepage> {
                       padding: const EdgeInsets.all(8.0),
                       child: InkWell(
                         onTap: () {
-                          Navigator.pushNamed(context, "music_4");
+                          Navigator.pushNamed(context, "music_5");
                         },
                         child: Container(
                           height: 160,

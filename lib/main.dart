@@ -8,6 +8,7 @@ import 'package:media_player_app/view/song/music_page.dart';
 import 'package:media_player_app/view/song2/music_list_2.dart';
 import 'package:media_player_app/view/song2/music_list_3.dart';
 import 'package:media_player_app/view/song2/music_list_4.dart';
+import 'package:media_player_app/view/song2/music_list_5.dart';
 import 'package:media_player_app/view/splash_screen.dart';
 import 'package:provider/provider.dart';
 
@@ -41,6 +42,8 @@ class _MyAppState extends State<MyApp> {
           "music_2":(context) => music_show_2(),
           "music_3":(context) => music_show_3(),
           "music_4":(context) => music_show_4(),
+          "music_5":(context) => music_show_5(),
+
         },
       ),
     );

@@ -15,7 +15,7 @@ class _SplashscreenState extends State<Splashscreen> {
     // TODO: implement initState
     super.initState();
     Timer(Duration(seconds: 2), () {
-      Navigator.pushReplacementNamed(context, "home");
+      Navigator.pushReplacementNamed(context, "login");
     });
   }
 
