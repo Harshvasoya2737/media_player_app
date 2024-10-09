@@ -73,7 +73,7 @@ class _HomepageState extends State<Homepage> {
                         )),
                       ),
                       SizedBox(
-                        width: 62,
+                        width: 30,
                       ),
                       Icon(
                         Icons.settings,
@@ -102,7 +102,7 @@ class _HomepageState extends State<Homepage> {
                       Row(
                         children: [
                           Text(
-                            "Based on OneRepublic, Bensone Boone,\nLil Nas X and more...",
+                            "Based on OneRepublic, \nBensone Boone,\nLil Nas X and more...",
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.w500,
@@ -110,7 +110,7 @@ class _HomepageState extends State<Homepage> {
                             ),
                           ),
                           SizedBox(
-                            width: 10,
+                            width: 100,
                           ),
                           Container(
                             height: 60,
